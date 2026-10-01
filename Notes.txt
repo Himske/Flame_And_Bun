@@ -1,0 +1,57 @@
+Duck.ai:
+Generated prompts:
+
+Classic smash:
+Extreme close-up, macro photography of a gourmet double smashburger on a toasted, glossy golden-brown brioche bun. Two thin, crispy-edged beef patties with heavy searing, topped with melted, dripping slices of neon-yellow American cheese. Topped with caramelized grilled onions and thick-cut crinkle pickles. A generous amount of creamy, orange-tinted secret house sauce dripping down the side. Soft, warm studio lighting to highlight the textures of the melted cheese and the glisten of the sauce. Bokeh background of a rustic kitchen, 8k resolution, cinematic food photography, hyper-realistic, commercial quality.
+
+Spicy:
+Professional commercial food photography of a spicy smashburger. A toasted brioche bun housing two thin, crispy-edged beef patties topped with melted, bubbling Pepper Jack cheese. Layers of sliced fresh green jalapeños and vibrant, crisp iceberg lettuce. A thick, glossy drizzle of spicy garlic aioli dripping down the side. Tiny flecks of red habanero pepper visible in the sauce for a hint of heat. Bright, high-key studio lighting, clean white marble background, 8k resolution, hyper-realistic, sharp focus, vibrant colors, appetizing textures.
+
+Truffle:
+Luxury food photography of a gourmet truffle smashburger. Two juicy, seared beef patties topped with a thick layer of melted, creamy Swiss cheese. A generous mound of sautéed wild mushrooms (shiitake and oyster) glistening with a dark, rich black truffle oil glaze. Toasted artisanal brioche bun with a slight sheen. Deep, moody lighting with a spotlight on the textures of the mushrooms. Dark slate background, gold accents, 8k resolution, cinematic, hyper-realistic, elegant presentation.
+
+BBQ Bacon Smash:
+Hyper-realistic food photography of a BBQ Bacon Smashburger. Two crispy-edged smashed beef patties topped with melted, gooey sharp cheddar cheese. Layers of thick-cut, glistening crispy bacon and a heap of sweet, jammy caramelized onions. A rich, dark mahogany-colored smoky BBQ sauce dripping provocatively down the side of the burger. Served on a toasted, buttery brioche bun. Warm, golden-hour lighting, rustic wooden table background, 8k resolution, cinematic, mouth-watering detail.
+
+The Mushroom Swiss Smash:
+Bright, airy food photography of a Mushroom Swiss Smashburger. Two seared beef patties topped with melted, creamy Swiss cheese and a layer of sautéed brown mushrooms. Topped with a leaf of vibrant, crisp green lettuce and a thick, juicy slice of deep-red vine-ripened tomato. A swirl of creamy signature white sauce peeking out from under the toasted golden brioche bun. Soft natural daylight, light wood background, 8k resolution, hyper-realistic, fresh and appetizing.
+
+Sauces:
+An epic, wide-angle overhead shot of a "Sauce Flight" featuring 16 small, ceramic dipping bowls arranged in a clean grid on a dark slate platter. Each bowl contains a different colored sauce: ranging from the creamy white of Buttermilk Ranch and Garlic Parm, the bright orange of Buffalo and Lava Sauce, the deep mahogany of BBQ and Jamaican Jerk, the vibrant yellow of Honey Hot, to the pale zesty Lemon Pepper. Some sauces are glossy, some are creamy, and the "Nashville Hot Dry" is a textured spicy powder. Garnished around the platter with fresh jalapeños, lemon slices, and sprigs of parsley. Moody, professional restaurant lighting, 8k resolution, hyper-realistic, cinematic food photography.
+
+Google Gemini genrated the images using these prompts. For the sauces I had to do a couple of tries, because it kept adding extra text to the image.
+
+
+
+Sauces:
+1. The "Creamy Crew" (Cool, Rich, & Silky)
+Sauces: Buttermilk Ranch, Garlic Parm, Garlic Buffalo, Lemon Pepper
+Vibe: Bright, clean, and indulgent.
+
+A dynamic, high-angle shot of four creamy white and pale-yellow sauces being swirled in elegant glass bowls. A swirl of Garlic Parm with a sprinkle of grated parmesan cheese on top; Buttermilk Ranch with a pinch of fresh dill; Garlic Buffalo with a slight orange tint; and Lemon Pepper with a fresh lemon zest curl. The lighting is bright and airy. A few cloves of roasted garlic and a lemon wedge are scattered artistically around the bowls. 8k resolution, macro photography, creamy textures, soft studio lighting, hyper-realistic.
+
+2. The "Heat Wave" (Fiery, Bold, & Intense)
+Sauces: Mango Habanero, Buffalo Hot, Nashville Hot Wet, Honey Hot
+Vibe: High energy, saturated colors, "dangerously" spicy.
+
+A cinematic, close-up shot of four fiery red and orange sauces. The Mango Habanero is a bright, translucent orange with a slice of fresh mango next to it; Buffalo Hot is a deep, glossy red; Nashville Hot Wet is a rich, dark crimson with red pepper flakes; and Honey Hot is a shimmering, sticky gold. A few fresh red habanero peppers and a honeycomb piece are placed around the sauces. Dark background to make the red and orange colors "glow." High contrast, 8k, dramatic lighting, droplets of sauce glistening, hyper-realistic.
+
+3. The "Smoky & Savory" (Deep, Earthy, & Bold)
+Sauces: BBQ Sauce, Jamaican Jerk, Cajun, Nashville Hot Dry
+Vibe: Rustic, warm, and masculine.
+
+A rustic, textured shot of four savory sauces on a dark charred wood board. A deep, mahogany-colored BBQ sauce; a rich, spiced Jamaican Jerk sauce; a golden-brown Cajun sauce; and a small heap of Nashville Hot Dry seasoning with a visible grainy, spicy texture. Garnished with a cinnamon stick, a few allspice berries, and a charred chili pepper. Warm, moody lighting with a hint of smoke in the air. 8k resolution, extreme detail on the textures, earthy tones, photorealistic.
+
+4. The "Sweet & Zesty" (Bright, Tangy, & Playful)
+Sauces: Spicy Peach, Spicy Lemon Pepper, Lava Sauce, Classic Buffalo
+Vibe: Fresh, popping colors, a mix of sweet and sour.
+
+A vibrant, playful shot of four zesty sauces in colorful ceramic ramekins. The Spicy Peach is a beautiful soft coral-orange with a fresh peach slice resting on the rim; Spicy Lemon Pepper is a bright, creamy yellow; the Secret Lava Sauce is a bold, tangy orange; and Classic Buffalo is a smooth, buttery red. Splashes of sauce and droplets of lemon juice create a sense of movement. Bright, high-key lighting, pastel-colored background, 8k, sharp focus, vivid and juicy colors.
+
+Final Website Layout Advice*
+To make these look incredible on your Flame & Bun site, I suggest placing these four images in a 2x2 Grid with titles like:
+
+"The Cool Down" (Creamy Crew)
+"The Fire Starters" (Heat Wave)
+"The Flavor Bombs" (Smoky & Savory)
+"The Zest Fest" (Sweet & Zesty)***

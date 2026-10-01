@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flame & Bun | Gourmet Smash Burgers</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bangers&family=Outfit:wght@300;400;600;700&display=swap');
+
+        h1,
+        h2,
+        h3,
+        .brand-font {
+            font-family: 'Bangers', cursive;
+            letter-spacing: 1px;
+        }
+
+        body {
+            font-family: 'Outfit', sans-serif;
+        }
+
+        .burger-card:hover img {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+
+<body class="bg-orange-50 text-stone-800">
+
+    <!-- Navigation -->
+    <nav class="fixed w-full z-50 bg-stone-900 backdrop-blur-sm border-b border-stone-900">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-20 items-center">
+                <div class="flex items-center gap-2 cursor-pointer">
+                    <div class="w-14 h-14 bg-black rounded-full flex items-center justify-center text-white shadow-lg">
+                        <img src="Images/Logo.jpg" alt="Flame & Bun logo" class="w-14 h-14 object-contain rounded-full">
+                    </div>
+                    <span class="text-2xl brand-font text-red-600 uppercase">Flame & Bun</span>
+                </div>
+                <div class="hidden md:flex space-x-8 font-semibold text-stone-600">
+                    <a href="menu.html" class="hover:text-red-600 transition uppercase tracking-wide">Menu</a>
+                    <a href="#about" class="hover:text-red-600 transition uppercase tracking-wide">Our Story</a>
+                    <a href="#contact" class="hover:text-red-600 transition uppercase tracking-wide">Visit Us</a>
+                </div>
+                <div>
+                    <a href="menu.html"
+                        class="bg-red-600 text-white px-6 py-2 rounded-full font-bold hover:bg-red-700 transition shadow-md uppercase text-sm">Order
+                        Ahead</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="relative h-screen flex items-center justify-center text-center px-4 overflow-hidden">
+        <!-- Background Image with Overlay -->
+        <div class="absolute inset-0 z-0">
+            <img src="Images/Burgers/The_Classic_Smash.jpg" alt="Delicious Burger" class="w-full h-full object-cover">
+            <div class="absolute inset-0 bg-gradient-to-b from-black/60 via-black/40 to-orange-50"></div>
+        </div>
+
+        <div class="relative z-10 text-white max-w-4xl">
+            <div class="flex items-center justify-center gap-4 mb-6">
+                <h1 class="text-6xl md:text-9xl drop-shadow-2xl uppercase">Smashed to <span
+                        class="text-orange-400">Perfection</span></h1>
+            </div>
+            <p class="text-xl md:text-2xl mb-10 font-light italic opacity-90">100% Grass-fed beef, brioche buns, and our
+                secret lava sauce.</p>
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <a href="menu.html"
+                    class="bg-orange-500 text-white px-10 py-4 rounded-full font-bold text-xl hover:bg-orange-600 transition shadow-xl uppercase">Explore
+                    Menu</a>
+                <a href="#contact"
+                    class="bg-white text-stone-900 px-10 py-4 rounded-full font-bold text-xl hover:bg-stone-100 transition shadow-xl uppercase">Find
+                    Us</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="py-24 px-4">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="text-5xl text-red-600 uppercase mb-4">The Main Event</h2>
+                <div class="w-24 h-1 bg-orange-400 mx-auto rounded-full"></div>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-10">
+                <!-- Burger 1 -->
+                <div
+                    class="burger-card group bg-white rounded-3xl overflow-hidden shadow-sm hover:shadow-2xl transition-all duration-300 border border-orange-100">
+                    <div class="h-64 overflow-hidden">
+                        <img src="./Images/Burgers/The_Classic_Smash.jpg" alt="The Classic"
+                            class="w-full h-full object-cover transition-transform duration-500">
+                    </div>
+                    <div class="p-8">
+                        <div class="flex justify-between items-center mb-4">
+                            <h3 class="text-2xl uppercase text-stone-800">The Classic Smash</h3>
+                            <span class="text-2xl font-bold text-red-600">$12</span>
+                        </div>
+                        <p class="text-stone-600 mb-6">Double patty, American cheese, grilled onions, pickles, and house
+                            sauce on toasted brioche.</p>
+                        <button
+                            class="w-full py-3 rounded-xl bg-orange-100 text-orange-700 font-bold hover:bg-orange-200 transition uppercase text-sm tracking-widest">Add
+                            to Order</button>
+                    </div>
+                </div>
+
+                <!-- Burger 2 -->
+                <div
+                    class="burger-card group bg-white rounded-3xl overflow-hidden shadow-sm hover:shadow-2xl transition-all duration-300 border border-orange-100">
+                    <div class="h-64 overflow-hidden">
+                        <img src="Images/Burgers/Spicy_Inferno.jpg" alt="Spicy Inferno"
+                            class="w-full h-full object-cover transition-transform duration-500">
+                    </div>
+                    <div class="p-8">
+                        <div class="flex justify-between items-center mb-4">
+                            <h3 class="text-2xl uppercase text-stone-800">Spicy Inferno</h3>
+                            <span class="text-2xl font-bold text-red-600">$14</span>
+                        </div>
+                        <p class="text-stone-600 mb-6">Pepper jack cheese, jalapeños, spicy aioli, and crisp lettuce
+                            with a kick of habanero.</p>
+                        <button
+                            class="w-full py-3 rounded-xl bg-orange-100 text-orange-700 font-bold hover:bg-orange-200 transition uppercase text-sm tracking-widest">Add
+                            to Order</button>
+                    </div>
+                </div>
+
+                <!-- Burger 3 -->
+                <div
+                    class="burger-card group bg-white rounded-3xl overflow-hidden shadow-sm hover:shadow-2xl transition-all duration-300 border border-orange-100">
+                    <div class="h-64 overflow-hidden">
+                        <img src="Images/Burgers/Truffle_King.jpg" alt="Truffle King"
+                            class="w-full h-full object-cover transition-transform duration-500">
+                    </div>
+                    <div class="p-8">
+                        <div class="flex justify-between items-center mb-4">
+                            <h3 class="text-2xl uppercase text-stone-800">Truffle King</h3>
+                            <span class="text-2xl font-bold text-red-600">$16</span>
+                        </div>
+                        <p class="text-stone-600 mb-6">Sautéed wild mushrooms, swiss cheese, and black truffle oil glaze
+                            for a gourmet experience.</p>
+                        <button
+                            class="w-full py-3 rounded-xl bg-orange-100 text-orange-700 font-bold hover:bg-orange-200 transition uppercase text-sm tracking-widest">Add
+                            to Order</button>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-12 text-center">
+                <a href="menu.html"
+                    class="inline-block bg-orange-500 text-white px-10 py-4 rounded-full font-bold text-lg hover:bg-orange-600 transition shadow-xl uppercase">
+                    Explore The Whole Menu
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-stone-900 text-white overflow-hidden">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="grid md:grid-cols-2 gap-16 items-center">
+                <div class="relative">
+                    <img src="Images/Flame_and_Bun_Chef.jpg" alt="Chef cooking"
+                        class="rounded-3xl shadow-2xl relative z-10">
+                    <div class="absolute -bottom-6 -right-6 w-64 h-64 bg-red-600 rounded-full blur-3xl opacity-20">
+                    </div>
+                </div>
+                <div>
+                    <h2 class="text-5xl uppercase mb-6 text-orange-400">Born from the Flame</h2>
+                    <p class="text-lg text-stone-400 leading-relaxed mb-6">
+                        We started in a small garage with one cast-iron skillet and a passion for the perfect crust. At
+                        Flame & Bun, we believe a burger isn't just food—it's an art form.
+                    </p>
+                    <p class="text-lg text-stone-400 leading-relaxed mb-8">
+                        That's why we source our beef from local organic farms and bake our buns fresh every single
+                        morning at 4 AM. No frozen patties. No shortcuts. Just fire and flavor.
+                    </p>
+                    <div class="flex gap-8">
+                        <div class="text-center">
+                            <div class="text-4xl font-bold text-white brand-font">100%</div>
+                            <div class="text-sm text-stone-500 uppercase">Fresh Beef</div>
+                        </div>
+                        <div class="text-center">
+                            <div class="text-4xl font-bold text-white brand-font">24hr</div>
+                            <div class="text-sm text-stone-500 uppercase">Marinated</div>
+                        </div>
+                        <div class="text-center">
+                            <div class="text-4xl font-bold text-white brand-font">Local</div>
+                            <div class="text-sm text-stone-500 uppercase">Sourced</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-24 px-4">
+        <div class="max-w-7xl mx-auto">
+            <div class="grid md:grid-cols-2 gap-16">
+                <div>
+                    <h2 class="text-5xl uppercase text-red-600 mb-6">Visit the Bun-ker</h2>
+                    <p class="text-lg text-stone-600 mb-10">Hungry yet? Swing by for the best smash burgers in the city.
+                        We're open late!</p>
+
+                    <div class="space-y-6">
+                        <div class="flex items-start gap-4">
+                            <div
+                                class="w-12 h-12 bg-orange-100 text-orange-600 rounded-full flex items-center justify-center shrink-0">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-lg">Location</h4>
+                                <p class="text-stone-600">123 Burger Lane, Flavor Town, FT 54321</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-4">
+                            <div
+                                class="w-12 h-12 bg-orange-100 text-orange-600 rounded-full flex items-center justify-center shrink-0">
+                                <i class="fa-solid fa-clock"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-lg">Hours</h4>
+                                <p class="text-stone-600">Mon - Sun: 11:00 AM - 11:00 PM</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white p-8 rounded-3xl shadow-xl border border-orange-100">
+                    <form class="space-y-4">
+                        <div class="grid grid-cols-2 gap-4">
+                            <input type="text" placeholder="Name"
+                                class="w-full px-4 py-3 rounded-xl bg-stone-50 border border-stone-200 focus:outline-none focus:ring-2 focus:ring-orange-400">
+                            <input type="email" placeholder="Email"
+                                class="w-full px-4 py-3 rounded-xl bg-stone-50 border border-stone-200 focus:outline-none focus:ring-2 focus:ring-orange-400">
+                        </div>
+                        <textarea rows="4" placeholder="Your special request..."
+                            class="w-full px-4 py-3 rounded-xl bg-stone-50 border border-stone-200 focus:outline-none focus:ring-2 focus:ring-orange-400"></textarea>
+                        <button
+                            class="w-full py-4 bg-red-600 text-white font-bold rounded-xl hover:bg-red-700 transition uppercase tracking-widest shadow-lg shadow-red-200">Send
+                            Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-stone-900 py-12 border-t border-orange-200">
+        <div class="max-w-7xl mx-auto px-4 text-center">
+            <div class="flex items-center justify-center gap-2 mb-6">
+                <div class="w-40 h-48 rounded-3xl flex items-center justify-center text-white text-xs">
+                    <img src="Images/Logo.jpg" alt="Flame & Bun logo" class="w-40 h-48 object-contain rounded-xl">
+                </div>
+            </div>
+            <p class="text-stone-500 text-sm">© 2026 Flame & Bun Gourmet Burgers. All rights reserved.</p>
+            <div class="flex justify-center gap-6 mt-6 text-stone-400">
+                <a href="#" class="hover:text-red-600 transition"><i class="fa-brands fa-instagram text-xl"></i></a>
+                <a href="#" class="hover:text-red-600 transition"><i class="fa-brands fa-facebook text-xl"></i></a>
+                <a href="#" class="hover:text-red-600 transition"><i class="fa-brands fa-tiktok text-xl"></i></a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

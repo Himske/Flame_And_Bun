@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu | Flame &amp; Bun</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bangers&family=Outfit:wght@300;400;600;700&display=swap');
+
+        h1,
+        h2,
+        h3,
+        .brand-font {
+            font-family: 'Bangers', cursive;
+            letter-spacing: 1px;
+        }
+
+        body {
+            font-family: 'Outfit', sans-serif;
+        }
+
+        .menu-card:hover img {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+
+<body class="bg-orange-50 text-stone-800">
+    <nav class="fixed w-full z-50 bg-stone-900 border-b border-stone-900">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-20 items-center">
+                <a href="index.html" class="flex items-center gap-2">
+                    <div class="w-14 h-14 bg-black rounded-full flex items-center justify-center shadow-lg">
+                        <img src="Images/Logo.jpg" alt="Flame &amp; Bun logo"
+                            class="w-14 h-14 object-contain rounded-full">
+                    </div>
+                    <span class="text-2xl brand-font text-red-600 uppercase">Flame &amp; Bun</span>
+                </a>
+                <div class="hidden md:flex space-x-8 font-semibold text-white">
+                    <a href="#burgers" class="hover:text-orange-400 transition uppercase tracking-wide">Burgers</a>
+                    <a href="#sides" class="hover:text-orange-400 transition uppercase tracking-wide">Sides</a>
+                    <a href="#sauces" class="hover:text-orange-400 transition uppercase tracking-wide">Sauces</a>
+                    <a href="#drinks" class="hover:text-orange-400 transition uppercase tracking-wide">Drinks</a>
+                </div>
+                <a href="#burgers"
+                    class="bg-red-600 text-white px-6 py-2 rounded-full font-bold hover:bg-red-700 transition shadow-md uppercase text-sm">Order
+                    Ahead</a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="pt-20">
+        <section class="relative min-h-[52vh] flex items-center justify-center text-center px-4 overflow-hidden">
+            <div class="absolute inset-0">
+                <img src="Images/Burgers/The_Classic_Smash.jpg" alt="The Classic Smash burger"
+                    class="w-full h-full object-cover">
+                <div class="absolute inset-0 bg-gradient-to-b from-black/70 via-black/50 to-orange-50"></div>
+            </div>
+            <div class="relative z-10 text-white max-w-4xl py-20">
+                <p class="uppercase tracking-[0.25em] text-orange-300 font-bold mb-4">Flame &amp; Bun</p>
+                <h1 class="text-6xl md:text-8xl drop-shadow-2xl uppercase">Good things <span
+                        class="text-orange-400">stack up</span></h1>
+                <p class="text-xl md:text-2xl mt-5 font-light italic opacity-90">Smash burgers, golden sides, and sauces
+                    worth dunking for.</p>
+                <a href="#burgers"
+                    class="inline-block mt-8 bg-orange-500 text-white px-9 py-3 rounded-full font-bold text-lg hover:bg-orange-600 transition shadow-xl uppercase">Explore
+                    the menu</a>
+            </div>
+        </section>
+
+        <nav aria-label="Menu categories"
+            class="sticky top-20 z-40 bg-orange-50/95 backdrop-blur border-b border-orange-200">
+            <div class="max-w-7xl mx-auto px-4 py-3 flex gap-3 overflow-x-auto">
+                <a href="#burgers"
+                    class="shrink-0 px-5 py-2 rounded-full bg-red-600 text-white font-bold uppercase text-sm">Burgers</a>
+                <a href="#sides"
+                    class="shrink-0 px-5 py-2 rounded-full bg-white text-stone-700 hover:bg-orange-100 font-bold uppercase text-sm">Sides</a>
+                <a href="#sauces"
+                    class="shrink-0 px-5 py-2 rounded-full bg-white text-stone-700 hover:bg-orange-100 font-bold uppercase text-sm">Sauces</a>
+                <a href="#drinks"
+                    class="shrink-0 px-5 py-2 rounded-full bg-white text-stone-700 hover:bg-orange-100 font-bold uppercase text-sm">Drinks</a>
+            </div>
+        </nav>
+
+        <section id="burgers" class="py-20 px-4 scroll-mt-36">
+            <div class="max-w-7xl mx-auto">
+                <div class="text-center mb-12">
+                    <h2 class="text-5xl md:text-6xl text-red-600 uppercase mb-4">Smash Burgers</h2>
+                    <p class="text-orange-600 font-bold uppercase tracking-widest mb-2">Fresh off the griddle</p>
+                    <div class="w-24 h-1 bg-orange-400 mx-auto rounded-full"></div>
+                </div>
+                <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <article
+                        class="menu-card group bg-white rounded-3xl overflow-hidden shadow-sm hover:shadow-2xl transition-all duration-300 border border-orange-100">
+                        <div class="h-64 overflow-hidden"><img src="Images/Burgers/The_Classic_Smash.jpg"
+                                alt="The Classic Smash burger"
+                                class="w-full h-full object-cover transition-transform duration-500"></div>
+                        <div class="p-7">
+                            <h3 class="text-3xl uppercase mb-2">The Classic Smash</h3>
+                            <p class="text-stone-600 leading-relaxed">A juicy beef patty, melted cheddar, lettuce,
+                                tomato, pickles, and our signature sauce on a toasted brioche bun.</p>
+                        </div>
+                    </article>
+                    <article
+                        class="menu-card group bg-white rounded-3xl overflow-hidden shadow-sm hover:shadow-2xl transition-all duration-300 border border-orange-100">
+                        <div class="h-64 overflow-hidden"><img src="Images/Burgers/Spicy_Inferno.jpg"
+                                alt="Spicy Inferno burger"
+                                class="w-full h-full object-cover transition-transform duration-500"></div>
+                        <div class="p-7">
+                            <h3 class="text-3xl uppercase mb-2">Spicy Inferno</h3>
+                            <p class="text-stone-600 leading-relaxed">Pepper jack cheese, fresh jalapeños, crisp
+                                lettuce, spicy aioli, and our signature spicy sauce.</p>
+                        </div>
+                    </article>
+                    <article
+                        class="menu-card group bg-white rounded-3xl overflow-hidden shadow-sm hover:shadow-2xl transition-all duration-300 border border-orange-100">
+                        <div class="h-64 overflow-hidden"><img src="Images/Burgers/Truffle_King.jpg"
+                                alt="Truffle King burger"
+                                class="w-full h-full object-cover transition-transform duration-500"></div>
+                        <div class="p-7">
+                            <h3 class="text-3xl uppercase mb-2">Truffle King</h3>
+                            <p class="text-stone-600 leading-relaxed">Truffle aioli, sautéed mushrooms, Swiss cheese,
+                                lettuce, and tomato on a toasted brioche bun.</p>
+                        </div>
+                    </article>
+                    <article
+                        class="menu-card group bg-white rounded-3xl overflow-hidden shadow-sm hover:shadow-2xl transition-all duration-300 border border-orange-100">
+                        <div class="h-64 overflow-hidden"><img src="Images/Burgers/BBQ_Bacon_Smash.jpg"
+                                alt="BBQ Bacon Smash burger"
+                                class="w-full h-full object-cover transition-transform duration-500"></div>
+                        <div class="p-7">
+                            <h3 class="text-3xl uppercase mb-2">The BBQ Bacon Smash</h3>
+                            <p class="text-stone-600 leading-relaxed">Smoky BBQ sauce, crispy bacon, cheddar cheese, and
+                                caramelized onions on toasted brioche.</p>
+                        </div>
+                    </article>
+                    <article
+                        class="menu-card group bg-white rounded-3xl overflow-hidden shadow-sm hover:shadow-2xl transition-all duration-300 border border-orange-100">
+                        <div class="h-64 overflow-hidden"><img src="Images/Burgers/The_Mushroom_Swiss_Smash.jpg"
+                                alt="Mushroom Swiss Smash burger"
+                                class="w-full h-full object-cover transition-transform duration-500"></div>
+                        <div class="p-7">
+                            <h3 class="text-3xl uppercase mb-2">The Mushroom Swiss Smash</h3>
+                            <p class="text-stone-600 leading-relaxed">Sautéed mushrooms, Swiss cheese, crisp lettuce,
+                                tomato, and our signature sauce on toasted brioche.</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="sides" class="py-20 px-4 bg-white scroll-mt-36">
+            <div class="max-w-7xl mx-auto">
+                <div class="text-center mb-12">
+                    <h2 class="text-5xl md:text-6xl text-red-600 uppercase mb-4">Sides</h2>
+                    <p class="text-orange-600 font-bold uppercase tracking-widest mb-2">The supporting cast</p>
+                    <p class="text-stone-600">Fries, mac, slaw, and all the good stuff in between.</p>
+                    <div class="w-24 h-1 bg-orange-400 mx-auto rounded-full mt-5"></div>
+                </div>
+                <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <article class="menu-card flex bg-orange-50 rounded-2xl overflow-hidden border border-orange-100">
+                        <div class="w-36 sm:w-44 h-36 shrink-0 overflow-hidden"><img src="Images/Sides/Fries.jpeg"
+                                alt="Golden French fries"
+                                class="w-full h-full object-cover transition-transform duration-500"></div>
+                        <div class="p-5 flex flex-col justify-center">
+                            <h3 class="text-2xl uppercase">French Fries</h3>
+                            <p class="text-stone-600 text-sm mt-1">Classic, golden, and perfectly crisp.</p>
+                        </div>
+                    </article>
+                    <article class="menu-card flex bg-orange-50 rounded-2xl overflow-hidden border border-orange-100">
+                        <div class="w-36 sm:w-44 h-36 shrink-0 overflow-hidden"><img
+                                src="Images/Sides/Sweet Potato Fries.jpeg" alt="Sweet potato fries"
+                                class="w-full h-full object-cover transition-transform duration-500"></div>
+                        <div class="p-5 flex flex-col justify-center">
+                            <h3 class="text-2xl uppercase">Sweet Potato Fries</h3>
+                            <p class="text-stone-600 text-sm mt-1">Sweet, savory, and crisp at the edges.</p>
+                        </div>
+                    </article>
+                    <article class="menu-card flex bg-orange-50 rounded-2xl overflow-hidden border border-orange-100">
+                        <div class="w-36 sm:w-44 h-36 shrink-0 overflow-hidden"><img src="Images/Sides/Fries Mix.jpeg"
+                                alt="A mix of regular and sweet potato fries"
+                                class="w-full h-full object-cover transition-transform duration-500"></div>
+                        <div class="p-5 flex flex-col justify-center">
+                            <h3 class="text-2xl uppercase">Fries Mix</h3>
+                            <p class="text-stone-600 text-sm mt-1">Classic and sweet potato fries together.</p>
+                        </div>
+                    </article>
+                    <article class="menu-card flex bg-orange-50 rounded-2xl overflow-hidden border border-orange-100">
+                        <div class="w-36 sm:w-44 h-36 shrink-0 overflow-hidden"><img src="Images/Sides/Onion Rings.jpeg"
+                                alt="Crispy onion rings"
+                                class="w-full h-full object-cover transition-transform duration-500"></div>
+                        <div class="p-5 flex flex-col justify-center">
+                            <h3 class="text-2xl uppercase">Onion Rings</h3>
+                            <p class="text-stone-600 text-sm mt-1">Crispy, golden rings with a hint of spice.</p>
+                        </div>
+                    </article>
+                    <article class="menu-card flex bg-orange-50 rounded-2xl overflow-hidden border border-orange-100">
+                        <div class="w-36 sm:w-44 h-36 shrink-0 overflow-hidden"><img src="Images/Sides/Baked Beans.jpeg"
+                                alt="Smoky baked beans"
+                                class="w-full h-full object-cover transition-transform duration-500"></div>
+                        <div class="p-5 flex flex-col justify-center">
+                            <h3 class="text-2xl uppercase">Baked Beans</h3>
+                            <p class="text-stone-600 text-sm mt-1">Smoky, savory BBQ beans.</p>
+                        </div>
+                    </article>
+                    <article class="menu-card flex bg-orange-50 rounded-2xl overflow-hidden border border-orange-100">
+                        <div class="w-36 sm:w-44 h-36 shrink-0 overflow-hidden"><img src="Images/Sides/Green Salads.jpg"
+                                alt="Fresh green salad"
+                                class="w-full h-full object-cover transition-transform duration-500"></div>
+                        <div class="p-5 flex flex-col justify-center">
+                            <h3 class="text-2xl uppercase">Green Salads</h3>
+                            <p class="text-stone-600 text-sm mt-1">Fresh greens, grains, chickpeas, and feta.</p>
+                        </div>
+                    </article>
+                    <article class="menu-card flex bg-orange-50 rounded-2xl overflow-hidden border border-orange-100">
+                        <div class="w-36 sm:w-44 h-36 shrink-0 overflow-hidden"><img src="Images/Sides/Coleslaw.jpg"
+                                alt="Fresh coleslaw"
+                                class="w-full h-full object-cover transition-transform duration-500"></div>
+                        <div class="p-5 flex flex-col justify-center">
+                            <h3 class="text-2xl uppercase">Coleslaw</h3>
+                            <p class="text-stone-600 text-sm mt-1">Cool crunch with a creamy, tangy finish.</p>
+                        </div>
+                    </article>
+                    <article class="menu-card flex bg-orange-50 rounded-2xl overflow-hidden border border-orange-100">
+                        <div class="w-36 sm:w-44 h-36 shrink-0 overflow-hidden"><img
+                                src="Images/Sides/Grilled Corn on the Cob.jpg" alt="Grilled corn on the cob"
+                                class="w-full h-full object-cover transition-transform duration-500"></div>
+                        <div class="p-5 flex flex-col justify-center">
+                            <h3 class="text-2xl uppercase">Grilled Corn</h3>
+                            <p class="text-stone-600 text-sm mt-1">Sweet, buttery corn straight off the grill.</p>
+                        </div>
+                    </article>
+                    <article class="menu-card flex bg-orange-50 rounded-2xl overflow-hidden border border-orange-100">
+                        <div class="w-36 sm:w-44 h-36 shrink-0 overflow-hidden"><img
+                                src="Images/Sides/Mac and Cheese.jpg" alt="Creamy macaroni and cheese"
+                                class="w-full h-full object-cover transition-transform duration-500"></div>
+                        <div class="p-5 flex flex-col justify-center">
+                            <h3 class="text-2xl uppercase">Mac and Cheese</h3>
+                            <p class="text-stone-600 text-sm mt-1">Creamy, baked, and extra comforting.</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="sauces" class="py-20 px-4 scroll-mt-36">
+            <div class="max-w-7xl mx-auto">
+                <div class="text-center mb-12">
+                    <h2 class="text-5xl md:text-6xl text-red-600 uppercase mb-4">Sauces</h2>
+                    <p class="text-orange-600 font-bold uppercase tracking-widest mb-2">Every flavor, made to dunk</p>
+                    <div class="w-24 h-1 bg-orange-400 mx-auto rounded-full"></div>
+                </div>
+                <div class="grid sm:grid-cols-2 gap-8">
+                    <article class="menu-card bg-white rounded-3xl overflow-hidden shadow-sm border border-orange-100">
+                        <div class="h-48 overflow-hidden"><img src="Images/Sauces/Zest_Crew.jpeg"
+                                alt="The Zest Fest sauce collection"
+                                class="w-full h-full object-cover transition-transform duration-500"></div>
+                        <div class="p-7">
+                            <h3 class="text-3xl uppercase text-red-600 mb-4">The Zest Fest <span
+                                    class="text-lg text-orange-600">/ Zest Crew</span></h3>
+                            <ul class="divide-y divide-orange-100">
+                                <li class="py-3">
+                                    <div class="flex justify-between font-bold"><span>Spicy Peach</span><span
+                                            class="text-red-600">$0.89</span></div>
+                                    <p class="text-sm text-stone-600">Sweet peach with a smooth heat and a spicy finish.
+                                    </p>
+                                </li>
+                                <li class="py-3">
+                                    <div class="flex justify-between font-bold"><span>Spicy Lemon Pepper</span><span
+                                            class="text-red-600">$0.89</span></div>
+                                    <p class="text-sm text-stone-600">Zesty lemon pepper blended with buffalo heat.</p>
+                                </li>
+                                <li class="py-3">
+                                    <div class="flex justify-between font-bold"><span>Our Secret Lava Sauce</span><span
+                                            class="text-red-600">$0.89</span></div>
+                                    <p class="text-sm text-stone-600">Creamy, tangy, and finished with savory spices.
+                                    </p>
+                                </li>
+                                <li class="py-3">
+                                    <div class="flex justify-between font-bold"><span>Classic Buffalo</span><span
+                                            class="text-red-600">$0.89</span></div>
+                                    <p class="text-sm text-stone-600">Classic tang with buttery flavor and mild heat.
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </article>
+                    <article class="menu-card bg-white rounded-3xl overflow-hidden shadow-sm border border-orange-100">
+                        <div class="h-48 overflow-hidden"><img src="Images/Sauces/Smoky_Crew.jpg"
+                                alt="The Flavor Bombs sauce collection"
+                                class="w-full h-full object-cover transition-transform duration-500"></div>
+                        <div class="p-7">
+                            <h3 class="text-3xl uppercase text-red-600 mb-4">The Flavor Bombs <span
+                                    class="text-lg text-orange-600">/ Smoky Crew</span></h3>
+                            <ul class="divide-y divide-orange-100">
+                                <li class="py-3">
+                                    <div class="flex justify-between font-bold"><span>BBQ Sauce</span><span
+                                            class="text-red-600">$0.89</span></div>
+                                    <p class="text-sm text-stone-600">Rich, smoky, and slightly sweet barbecue flavor.
+                                    </p>
+                                </li>
+                                <li class="py-3">
+                                    <div class="flex justify-between font-bold"><span>Jamaican Jerk Sauce</span><span
+                                            class="text-red-600">$0.89</span></div>
+                                    <p class="text-sm text-stone-600">Warm island spices with a touch of sweetness.</p>
+                                </li>
+                                <li class="py-3">
+                                    <div class="flex justify-between font-bold"><span>Cajun</span><span
+                                            class="text-red-600">$0.89</span></div>
+                                    <p class="text-sm text-stone-600">A savory blend of classic Cajun spices and herbs.
+                                    </p>
+                                </li>
+                                <li class="py-3">
+                                    <div class="flex justify-between font-bold"><span>Nashville Hot Dry</span><span
+                                            class="text-red-600">$0.89</span></div>
+                                    <p class="text-sm text-stone-600">Smoky dry spice with a deep, fiery kick.</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </article>
+                    <article class="menu-card bg-white rounded-3xl overflow-hidden shadow-sm border border-orange-100">
+                        <div class="h-48 overflow-hidden"><img src="Images/Sauces/Heatwave_Crew.jpg"
+                                alt="The Fire Starters sauce collection"
+                                class="w-full h-full object-cover transition-transform duration-500"></div>
+                        <div class="p-7">
+                            <h3 class="text-3xl uppercase text-red-600 mb-4">The Fire Starters <span
+                                    class="text-lg text-orange-600">/ Heat Wave Crew</span></h3>
+                            <ul class="divide-y divide-orange-100">
+                                <li class="py-3">
+                                    <div class="flex justify-between font-bold"><span>Mango Habanero</span><span
+                                            class="text-red-600">$0.89</span></div>
+                                    <p class="text-sm text-stone-600">Sweet mango balanced with a fiery habanero kick.
+                                    </p>
+                                </li>
+                                <li class="py-3">
+                                    <div class="flex justify-between font-bold"><span>Buffalo Hot</span><span
+                                            class="text-red-600">$0.89</span></div>
+                                    <p class="text-sm text-stone-600">Classic tang, vinegar bite, and a fiery finish.
+                                    </p>
+                                </li>
+                                <li class="py-3">
+                                    <div class="flex justify-between font-bold"><span>Nashville Hot Wet</span><span
+                                            class="text-red-600">$0.89</span></div>
+                                    <p class="text-sm text-stone-600">Spicy-sweet sauce with a rich, smoky kick.</p>
+                                </li>
+                                <li class="py-3">
+                                    <div class="flex justify-between font-bold"><span>Honey Hot</span><span
+                                            class="text-red-600">$0.89</span></div>
+                                    <p class="text-sm text-stone-600">Sticky honey sweetness with a bold hit of heat.
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </article>
+                    <article class="menu-card bg-white rounded-3xl overflow-hidden shadow-sm border border-orange-100">
+                        <div class="h-48 overflow-hidden"><img src="Images/Sauces/Creamy_Crew.jpg"
+                                alt="The Cool Down sauce collection"
+                                class="w-full h-full object-cover transition-transform duration-500"></div>
+                        <div class="p-7">
+                            <h3 class="text-3xl uppercase text-red-600 mb-4">The Cool Down <span
+                                    class="text-lg text-orange-600">/ Creamy Crew</span></h3>
+                            <ul class="divide-y divide-orange-100">
+                                <li class="py-3">
+                                    <div class="flex justify-between font-bold"><span>Buttermilk Ranch</span><span
+                                            class="text-red-600">$0.89</span></div>
+                                    <p class="text-sm text-stone-600">Cool, creamy herbs with a smooth, tangy finish.
+                                    </p>
+                                </li>
+                                <li class="py-3">
+                                    <div class="flex justify-between font-bold"><span>Garlic Parm</span><span
+                                            class="text-red-600">$0.89</span></div>
+                                    <p class="text-sm text-stone-600">Creamy garlic with savory parmesan.</p>
+                                </li>
+                                <li class="py-3">
+                                    <div class="flex justify-between font-bold"><span>Garlic Buffalo</span><span
+                                            class="text-red-600">$0.89</span></div>
+                                    <p class="text-sm text-stone-600">Creamy garlic parmesan with a buffalo kick.</p>
+                                </li>
+                                <li class="py-3">
+                                    <div class="flex justify-between font-bold"><span>Lemon Pepper</span><span
+                                            class="text-red-600">$0.89</span></div>
+                                    <p class="text-sm text-stone-600">Bright lemon and a savory peppery bite.</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="drinks" class="py-20 px-4 bg-stone-900 text-white scroll-mt-36">
+            <div class="max-w-7xl mx-auto">
+                <div class="text-center mb-12">
+                    <h2 class="text-5xl md:text-6xl text-orange-400 uppercase mb-4">Drinks</h2>
+                    <p class="text-orange-400 font-bold uppercase tracking-widest mb-2">Something to sip</p>
+                    <div class="w-24 h-1 bg-red-600 mx-auto rounded-full"></div>
+                </div>
+                <div class="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+                    <article
+                        class="menu-card group flex bg-stone-800 rounded-3xl overflow-hidden border border-stone-700">
+                        <div class="w-2/5 min-h-56 overflow-hidden"><img src="Images/Drinks/Soda.jpg"
+                                alt="Cold sodas and bottled water"
+                                class="w-full h-full object-cover transition-transform duration-500"></div>
+                        <div class="p-6 sm:p-8 flex flex-col justify-center">
+                            <h3 class="text-3xl uppercase text-orange-300">Soda &amp; Water</h3>
+                            <p class="text-stone-300 mt-3">Coke, Diet Coke, Sprite, Fanta, Dr. Pepper, and refreshing
+                                bottled water.</p>
+                        </div>
+                    </article>
+                    <article
+                        class="menu-card group flex bg-stone-800 rounded-3xl overflow-hidden border border-stone-700">
+                        <div class="w-2/5 min-h-56 overflow-hidden"><img src="Images/Drinks/Beer.jpg"
+                                alt="A selection of beer"
+                                class="w-full h-full object-cover transition-transform duration-500"></div>
+                        <div class="p-6 sm:p-8 flex flex-col justify-center">
+                            <h3 class="text-3xl uppercase text-orange-300">Beer</h3>
+                            <p class="text-stone-300 mt-3">A selection of local and craft beers to go with your burger.
+                            </p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-stone-900 py-10 border-t border-orange-200">
+        <div class="max-w-7xl mx-auto px-4 text-center">
+            <a href="index.html" class="inline-flex items-center gap-3 mb-5">
+                <img src="Images/Logo.jpg" alt="" class="w-12 h-12 object-contain rounded-full">
+                <span class="text-2xl brand-font text-red-600 uppercase">Flame &amp; Bun</span>
+            </a>
+            <p class="text-stone-500 text-sm">&copy; 2026 Flame &amp; Bun Gourmet Burgers. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
