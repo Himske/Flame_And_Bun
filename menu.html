@@ -33,7 +33,7 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between h-20 items-center">
                 <a href="index.html" class="flex items-center gap-2">
-                    <div class="w-14 h-14 bg-black rounded-full flex items-center justify-center shadow-lg">
+                    <div class="w-14 h-14 bg-stone-900 rounded-full flex items-center justify-center shadow-lg">
                         <img src="Images/Logo.jpg" alt="Flame &amp; Bun logo"
                             class="w-14 h-14 object-contain rounded-full">
                     </div>
@@ -70,15 +70,17 @@
 
         <nav aria-label="Menu categories"
             class="sticky top-20 z-40 bg-orange-50/95 backdrop-blur border-b border-orange-200">
-            <div class="max-w-7xl mx-auto px-4 py-3 flex gap-3 overflow-x-auto">
-                <a href="#burgers"
-                    class="shrink-0 px-5 py-2 rounded-full bg-red-600 text-white font-bold uppercase text-sm">Burgers</a>
-                <a href="#sides"
-                    class="shrink-0 px-5 py-2 rounded-full bg-white text-stone-700 hover:bg-orange-100 font-bold uppercase text-sm">Sides</a>
-                <a href="#sauces"
-                    class="shrink-0 px-5 py-2 rounded-full bg-white text-stone-700 hover:bg-orange-100 font-bold uppercase text-sm">Sauces</a>
-                <a href="#drinks"
-                    class="shrink-0 px-5 py-2 rounded-full bg-white text-stone-700 hover:bg-orange-100 font-bold uppercase text-sm">Drinks</a>
+            <div class="max-w-7xl mx-auto overflow-x-auto">
+                <div class="w-max min-w-full px-4 py-3 flex justify-center gap-3">
+                    <a href="#burgers" aria-current="location"
+                        class="shrink-0 px-5 py-2 rounded-full bg-red-600 text-white font-bold uppercase text-sm">Burgers</a>
+                    <a href="#sides"
+                        class="shrink-0 px-5 py-2 rounded-full bg-white text-stone-700 hover:bg-orange-100 font-bold uppercase text-sm">Sides</a>
+                    <a href="#sauces"
+                        class="shrink-0 px-5 py-2 rounded-full bg-white text-stone-700 hover:bg-orange-100 font-bold uppercase text-sm">Sauces</a>
+                    <a href="#drinks"
+                        class="shrink-0 px-5 py-2 rounded-full bg-white text-stone-700 hover:bg-orange-100 font-bold uppercase text-sm">Drinks</a>
+                </div>
             </div>
         </nav>
 
@@ -466,6 +468,7 @@
             </div>
         </div>
     </footer>
+    <script src="categorynav.js"></script>
 </body>
 
 </html>
