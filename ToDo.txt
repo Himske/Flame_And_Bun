@@ -1,0 +1,18 @@
+Index page:
+===========
+Visit us:
+- Replace send message section with a map.
+
+Menu page:
+==========
+Keep navigation links or just have the buttons? (Maybe have the buttons filter the menu)
+Center the buttons.
+Sticky menu with buttons:
+- Buttons should indicate which one is pressed.
+- When clicking Burgers the menu doesn't sit in the same place as for the other buttons.
+Order buttons on the menu items.
+Add text for drinks stating that they can't be or don't need to be ordered ahead.
+
+Order ahead:
+============
+Add something like a shopping cart to store menu items.

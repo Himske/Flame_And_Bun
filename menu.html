@@ -40,10 +40,10 @@
                     <span class="text-2xl brand-font text-red-600 uppercase">Flame &amp; Bun</span>
                 </a>
                 <div class="hidden md:flex space-x-8 font-semibold text-white">
-                    <a href="#burgers" class="hover:text-orange-400 transition uppercase tracking-wide">Burgers</a>
-                    <a href="#sides" class="hover:text-orange-400 transition uppercase tracking-wide">Sides</a>
-                    <a href="#sauces" class="hover:text-orange-400 transition uppercase tracking-wide">Sauces</a>
-                    <a href="#drinks" class="hover:text-orange-400 transition uppercase tracking-wide">Drinks</a>
+                    <a href="#burgers" class="hover:text-red-600 transition uppercase tracking-wide">Burgers</a>
+                    <a href="#sides" class="hover:text-red-600 transition uppercase tracking-wide">Sides</a>
+                    <a href="#sauces" class="hover:text-red-600 transition uppercase tracking-wide">Sauces</a>
+                    <a href="#drinks" class="hover:text-red-600 transition uppercase tracking-wide">Drinks</a>
                 </div>
                 <a href="#burgers"
                     class="bg-red-600 text-white px-6 py-2 rounded-full font-bold hover:bg-red-700 transition shadow-md uppercase text-sm">Order
@@ -65,9 +65,6 @@
                         class="text-orange-400">stack up</span></h1>
                 <p class="text-xl md:text-2xl mt-5 font-light italic opacity-90">Smash burgers, golden sides, and sauces
                     worth dunking for.</p>
-                <a href="#burgers"
-                    class="inline-block mt-8 bg-orange-500 text-white px-9 py-3 rounded-full font-bold text-lg hover:bg-orange-600 transition shadow-xl uppercase">Explore
-                    the menu</a>
             </div>
         </section>
 
@@ -451,13 +448,22 @@
         </section>
     </main>
 
-    <footer class="bg-stone-900 py-10 border-t border-orange-200">
+    <!-- Footer -->
+    <footer class="bg-stone-900 py-12">
         <div class="max-w-7xl mx-auto px-4 text-center">
-            <a href="index.html" class="inline-flex items-center gap-3 mb-5">
-                <img src="Images/Logo.jpg" alt="" class="w-12 h-12 object-contain rounded-full">
-                <span class="text-2xl brand-font text-red-600 uppercase">Flame &amp; Bun</span>
-            </a>
-            <p class="text-stone-500 text-sm">&copy; 2026 Flame &amp; Bun Gourmet Burgers. All rights reserved.</p>
+            <div class="flex items-center justify-center gap-2 mb-6">
+                <div class="w-40 h-48 rounded-3xl flex items-center justify-center text-white text-xs">
+                    <a href="index.html">
+                        <img src="Images/Logo.jpg" alt="Flame & Bun logo" class="w-40 h-48 object-contain rounded-xl">
+                    </a>
+                </div>
+            </div>
+            <p class="text-stone-500 text-sm">© 2026 Flame & Bun Gourmet Burgers. All rights reserved.</p>
+            <div class="flex justify-center gap-6 mt-6 text-stone-400">
+                <a href="#0" class="hover:text-red-600 transition"><i class="fa-brands fa-instagram text-xl"></i></a>
+                <a href="#0" class="hover:text-red-600 transition"><i class="fa-brands fa-facebook text-xl"></i></a>
+                <a href="#0" class="hover:text-red-600 transition"><i class="fa-brands fa-tiktok text-xl"></i></a>
+            </div>
         </div>
     </footer>
 </body>
