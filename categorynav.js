@@ -35,7 +35,8 @@ function updateActiveCategoryFromScroll() {
 
     requestAnimationFrame(() => {
         scrollUpdatePending = false;
-        const activationPoint = categoryNav.getBoundingClientRect().bottom + 16;
+        const navBottom = categoryNav.getBoundingClientRect().bottom;
+        const activationPoint = navBottom + (window.innerHeight - navBottom) / 2;
         const activeSection = categorySections.reduce((currentSection, section) =>
             section.getBoundingClientRect().top <= activationPoint ? section : currentSection,
             categorySections[0]);
