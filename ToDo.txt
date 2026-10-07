@@ -1,6 +1,0 @@
-Index page:
-===========
-
-Menu page:
-==========
-Keep navigation links or just have the buttons? (Maybe have the buttons filter the menu)

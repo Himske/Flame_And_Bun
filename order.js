@@ -190,7 +190,6 @@
 
             saveOrder();
             renderOrder();
-            setOpen(true);
         });
     }
 
